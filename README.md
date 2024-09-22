@@ -18,7 +18,7 @@ sudo pacman -Sy base-devel
 
 4) Run `make install`
 
-5) Get the number of your keyboard hidraw interface - `/dev/hidrawX` where X is `0, 1, 2, 3`.
+5) Get the number of your keyboard hidraw interface (`/dev/hidrawX` where X is `0, 1, 2, 3`) by running following command.
 ```shell
 sudo ./fn_on.sh
 ```
